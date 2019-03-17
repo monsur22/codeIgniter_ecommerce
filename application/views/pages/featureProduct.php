@@ -10,11 +10,13 @@
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
 										<div class="product-overlay">
+										<a href="<?php echo base_url();?>welcome/product_details">
 											<div class="overlay-content">
 												<h2>$56</h2>
 												<p>Easy Polo Black Edition</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 											</div>
+										</a>
 										</div>
 								</div>
 								<div class="choose">
@@ -103,7 +105,7 @@
 						</div>
 						<div class="col-sm-4">
 							<div class="product-image-wrapper">
-								<div class="single-products">
+								<div class="single-products" >
 									<div class="productinfo text-center">
 										<img src="asset/images/home/product5.jpg" alt="" />
 										<h2>$56</h2>
@@ -111,11 +113,13 @@
 										<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 									</div>
 									<div class="product-overlay">
+										
 										<div class="overlay-content">
 											<h2>$56</h2>
 											<p>Easy Polo Black Edition</p>
 											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
 										</div>
+										
 									</div>
 									<img src="asset/images/home/sale.png" class="new" alt="" />
 								</div>

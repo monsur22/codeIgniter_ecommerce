@@ -27,4 +27,17 @@ class Welcome extends CI_Controller {
 		//$this->load->view('welcome_message');
 		
 	}
+	public function accounts(){
+		$data=array();
+		$data['slider']='';
+		$data['featureProduct']='<h1 align="center">This is Account page</h1>';
+		$this->load->view('master',$data);
+	}
+	public function product_details(){
+		$data=array();
+		$data['slider']='';
+		$data['featureProduct']=$this->load->view('pages/product_details.php','',true);;
+		$this->load->view('master',$data);
+
+	}
 }
