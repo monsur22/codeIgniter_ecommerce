@@ -36,7 +36,7 @@ class Welcome extends CI_Controller {
 	public function product_details(){
 		$data=array();
 		$data['slider']='';
-		$data['featureProduct']=$this->load->view('pages/product_details.php','',true);;
+		$data['featureProduct']=$this->load->view('pages/product_details.php','',true);
 		$this->load->view('master',$data);
 
 	}

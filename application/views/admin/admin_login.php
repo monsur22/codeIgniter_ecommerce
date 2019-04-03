@@ -10,19 +10,20 @@
   <meta name="author" content="">
   <title>SB Admin - Start Bootstrap Template</title>
   <!-- Bootstrap core CSS-->
-  <link href="admin_asset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>admin_asset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
-  <link href="admin_asset/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url();?>admin_asset/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
-  <link href="admin_asset/css/sb-admin.css" rel="stylesheet">
+  <link href="<?php echo base_url();?>admin_asset/css/sb-admin.css" rel="stylesheet">
 </head>
 
 <body class="bg-dark">
   <div class="container">
     <div class="card card-login mx-auto mt-5">
+      <h3 class="text-danger"><?php if(isset($error)){echo $error;}?></h3>
       <div class="card-header">Login</div>
       <div class="card-body">
-        <form action="<?php echo base_url();?>Admin/admin_dashboard" method="post">
+        <form action="<?php echo base_url();?>admin-home-page" method="post">
         <fieldset>
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
