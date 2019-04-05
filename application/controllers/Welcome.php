@@ -23,6 +23,7 @@ class Welcome extends CI_Controller {
 		$data=array();
 		$data['slider']=$this->load->view('pages/slider','',true);
 		$data['featureProduct']=$this->load->view('pages/featureProduct.php','',true);
+		$data['productCategory']=$this->load->view('pages/productCategory.php','',true);
 		$this->load->view('master',$data);
 		//$this->load->view('welcome_message');
 		
@@ -40,4 +41,5 @@ class Welcome extends CI_Controller {
 		$this->load->view('master',$data);
 
 	}
+	
 }

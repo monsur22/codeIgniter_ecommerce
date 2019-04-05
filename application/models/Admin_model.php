@@ -9,6 +9,16 @@ class Admin_model extends CI_Model {
 
     }
 
+    public function getcat(){
+    	$this->db->select('*');
+    	$this->db->from('add_category');
+    	$this->db->where('category_status',1);
+    	$query_result=$this->db->get();
+    	$result=$query_result->result();
+    	return $result;
+    }
+
+
 
 
 }
