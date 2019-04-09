@@ -62,22 +62,12 @@
             <li>
               <a href="<?php echo base_url('add-product')?>">Add Product</a>
             </li>
-          </ul>
-        </li>
-         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
-          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
-            <i class="fa fa-fw fa-wrench"></i>
-            <span class="nav-link-text">Product</span>
-          </a>
-          <ul class="sidenav-second-level collapse" id="collapseComponents">
             <li>
-              <a href="<?php echo base_url('add-product')?>">Add Product</a>
-            </li>
-            <li>
-              <a href="<?php echo base_url('manage_categori')?>">Manage Category</a>
+              <a href="<?php echo base_url('manage-product')?>">Manage Product</a>
             </li>
           </ul>
         </li>
+
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-wrench"></i>

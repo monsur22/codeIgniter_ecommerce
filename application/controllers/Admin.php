@@ -251,6 +251,16 @@ class Admin extends CI_Controller {
 		
 }
 
+public function manage_product(){
+			$data=array();
+		//$data['maincontant']=$this->load->view('admin/category/add_categori.php','',true);
+		$product_data['showpro']=$this->db->select('*')->from('add_product')->get()->result();
+
+		 $data['maincontant']=$this->load->view('admin/add_product/manage_product.php',$product_data,true);
+		// $data['maincontant']='Manage Product';
+		 $this->load->view('admin/master',$data);
+}
+
 
 
 

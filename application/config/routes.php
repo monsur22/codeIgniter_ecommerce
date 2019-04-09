@@ -65,6 +65,7 @@ $route['edit-category/(.+)'] = 'admin/edit_category/$1';
 $route['update-categori'] = 'admin/update_categori';
 $route['add-product'] = 'admin/add_product_page';
 $route['save-product'] = 'admin/save_product';
+$route['manage-product'] = 'admin/manage_product';
 
 
 
